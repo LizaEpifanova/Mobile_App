@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".signin2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#410FA3"
+        android:paddingStart="24dp"
+        android:paddingTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/obscure_button"
+                android:layout_width="20pt"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="#410FA3"
+                android:src="@drawable/vector" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/fredoka_medium"
+                android:gravity="center"
+                android:paddingEnd="64dp"
+                android:paddingRight="64dp"
+                android:text="Signup"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/fredoka_medium"
+            android:text="Create an Account"
+            android:textColor="#080E1E"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/fredoka_regular"
+
+            android:text="First Name"
+            android:textColor="#080E1E"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/alias_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#080E1E"
+            android:backgroundTint="#080E1E0D"
+
+            android:fontFamily="@font/fredoka_regular"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/fredoka_regular"
+
+            android:text="Last name"
+            android:textColor="#080E1E"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/last_alias_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#080E1E"
+            android:backgroundTint="#080E1E0D"
+
+            android:fontFamily="@font/fredoka_regular"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/fredoka_regular"
+
+            android:text="Email Address"
+            android:textColor="#080E1E"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/fake_email_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#080E1E"
+            android:backgroundTint="#080E1E0D"
+            android:fontFamily="@font/fredoka_regular"
+
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/fabricate_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/for_button"
+            android:backgroundTint="@color/butt"
+            android:fontFamily="@font/fredoka_medium"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_regular"
+                android:text="Already you member?"
+                android:textColor="#656872"
+
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/login_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:fontFamily="@font/fredoka_regular"
+
+                android:text="Login"
+                android:textColor="#5C6BC0"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
